@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+/* banner and title styles */
+.header {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-info {
+    padding-right: 230px;
+    padding-left: 700px;
+    text-align: right;
+}
+
+.banner-title {
+    padding-top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.banner-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.btn-contact {
+    background: #F15B22;
+    color: #fff;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 166px;
+}
