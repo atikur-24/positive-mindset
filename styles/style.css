@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
 /* banner and title styles */
 .header {
     background-image: url(../images/banner/banner1.png);
@@ -40,4 +44,39 @@
     border: 0;
     border-radius: 5px;
     margin-bottom: 166px;
+}
+
+/* failures of previous year styles */
+.failures-container {
+    display: flex;
+    gap: 87px;
+    margin-top: 183px;
+    margin-left: 180px;
+}
+
+.failure-info {
+    margin-top: 250px;
+    margin-right: 180px;
+}
+
+.failure-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.failure-item {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+.check-cricle {
+    padding-right: 10px;
+    color: #16d887;
 }
