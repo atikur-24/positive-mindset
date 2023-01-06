@@ -80,3 +80,21 @@
     padding-right: 10px;
     color: #16d887;
 }
+
+/* my plans styles */
+.my-plans {
+    margin-top: 130px;
+}
+
+.plan-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-info {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
