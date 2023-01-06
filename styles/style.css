@@ -48,10 +48,11 @@
 
 /* failures of previous year styles */
 .failures-container {
-    display: flex;
-    gap: 87px;
     margin-top: 183px;
     margin-left: 180px;
+    display: flex;
+    gap: 87px;
+
 }
 
 .failure-info {
@@ -97,4 +98,68 @@
     display: flex;
     justify-content: center;
     gap: 86px;
+}
+
+/* footer's contact-me styles */
+.contact-me {
+    margin-top: 130px;
+    background: #151414;
+    color: #F8F8F8;
+}
+.contact-container {
+    padding: 130px 200px;
+    display: flex;
+    gap: 300px;
+}
+
+.contact-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-description {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: #F8F8F8;
+    line-height: 26px;
+}
+
+.social-icons {
+    margin-top: 32px;
+}
+
+.social-icons a {
+    margin-right: 17px;
+}
+
+/* subscriber from style */
+.subscribe-title {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+input[type="email"] {
+    padding: 20px;
+    background: #151414;
+    border-color: #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.btn-subscribe {
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F8F8F8;
+    color: #F15B22;
 }
