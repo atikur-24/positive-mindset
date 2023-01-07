@@ -2,9 +2,14 @@
     margin: 0;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 40px;
+.btn-primary {
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F8F8F8;
+    color: #F15B22;
 }
 /* banner and title styles */
 .header {
@@ -99,10 +104,26 @@
     justify-content: center;
     gap: 86px;
 }
+/* gradient styles */
+.linear-gradient {
+    margin: 130px 230px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.gradient-info {
+    padding: 59px 64px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
 /* footer's contact-me styles */
 .contact-me {
-    margin-top: 130px;
     background: #151414;
     color: #F8F8F8;
 }
@@ -153,13 +174,4 @@ input[type="email"] {
     border-color: #F8F8F8;
     border-radius: 5px;
     margin-bottom: 18px;
-}
-.btn-subscribe {
-    padding: 20px 35px;
-    border: 0;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 20px;
-    background: #F8F8F8;
-    color: #F15B22;
 }
